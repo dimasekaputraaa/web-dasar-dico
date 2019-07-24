@@ -1,0 +1,96 @@
+.logo {
+    width: 25px;
+    height: 30px;
+    margin-top: 3px;
+    float:left;
+}
+* {
+    margin:0; 
+    padding:0;
+}
+.navbar {
+    position: center;
+    margin: auto;
+    width: 100%;
+    font-family: arial;
+
+}
+.navbar ul {
+    background:grey;
+    padding: 0 20px;
+    text-align: center;
+    list-style: none;
+    display: inline-table;
+    width: 1326px;
+}
+
+.navbar ul li{
+    float:right;
+}
+.navbar ul li:hover{
+    background:white;
+}
+.navbar ul li:hover a{
+    color:#000;
+}
+.navbar ul li a{
+    display: block;
+    padding: 10px;
+    color: #fff;
+    text-decoration: none;
+}
+h1{
+    padding: 10px 20px;
+    font-family: arial;
+    color: black;
+    text-align: center;
+    margin: auto;
+}
+hr {
+    width: 550px;
+    margin: auto;
+}
+.kiri {
+    margin: auto;
+    margin-left: 200px;
+    width:35%;
+
+
+}
+.content .kiri .h{
+    width: 95px;
+    height: 80px;
+    margin-top: 50px;
+    float: left;
+}
+
+.content .kiri p{
+    text-align: justify;
+    font-family: calibri, sans-serif;
+}
+.kanan {
+    margin: auto;
+    /*margin-right: 200px;*/
+    width: 35%;
+    float: right;
+
+}
+.content .kanan .D{
+    width: 70px;
+    height: 80px;
+  float: left;
+}
+.content .kanan p{
+    text-align: justify;
+    margin-top: 20px;
+    font-family: calibri, sans-serif;
+}
+footer {
+    padding: 10px;
+    text-align: center;
+    position: fixed-bottom;
+    background-color: black;
+    color: white;
+    height: 0px;
+    margin-top: 2000px;
+}
